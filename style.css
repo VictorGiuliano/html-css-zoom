@@ -16,7 +16,7 @@ main{
     margin:auto;
     max-width: 1100px;
     height: auto;
-    background-color: cyan;
+    background-color: black;
   }
 header{
     background-color: black;
@@ -42,4 +42,25 @@ footer{
     height: 150px;
 }
 
+.row{
+    display: flex;
+    gap:1px;
+}
+.colum{
+    flex-basis: calc(100%/7);
+    min-height: 200px;
+  }
+  .card{
+    position:relative;
+    margin: 2px 0;
+  }
 
+  .label{
+    font-size:x-small;
+    color: white;
+    background-color: rgba(93,108,120,0.4);
+    padding:4px;
+    position: absolute;
+    left:0;
+    bottom: 5px;
+}
