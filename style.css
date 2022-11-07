@@ -37,7 +37,9 @@ header{
     padding: 5px 5px; 
 }
 footer{
-    background-color: black;
+    background-color: rgb(34,34,34);
+    color: white;
+    padding-top:20px;
     width: 100%;
     height: 150px;
 }
@@ -48,7 +50,7 @@ footer{
 }
 .colum{
     flex-basis: calc(100%/7);
-    min-height: 200px;
+    flex-wrap: wrap;
   }
   .card{
     position:relative;
@@ -64,3 +66,23 @@ footer{
     left:0;
     bottom: 5px;
 }
+
+.f-bar {
+    display:flex;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    background-color:black;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* .rettangolo{ 
+    display: flex;
+    width: 50px;
+    height: 50px;
+   } */
+  .f-menu{
+    display: flex;
+    flex-direction: row;
+  }
