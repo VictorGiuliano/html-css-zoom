@@ -46,11 +46,15 @@ footer{
 
 .row{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap:1px;
+    min-width: auto;
+    justify-content: center;
 }
 .colum{
     flex-basis: calc(100%/7);
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   .card{
     position:relative;
