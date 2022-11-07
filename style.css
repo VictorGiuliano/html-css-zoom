@@ -7,9 +7,16 @@
 body {
     font-family: sans-serif;
   }
+main{
+    background-color: black;
+    height: calc(100vh - 100px);
+    overflow-y:auto;
+}
 .container{
-width: 1200px;
-height: 0 auto;
+    margin:auto;
+    max-width: 1100px;
+    height: auto;
+    background-color: cyan;
   }
 header{
     background-color: black;
@@ -22,18 +29,17 @@ header{
     right:10px;
     top: 10px;
   }
-  .w-celle{
-    padding: 5px 5px;
+  .w-action{
     background-color: lightgray;
     color: white;
-    font-size: small;
-    border-radius: 5px;
+    border-radius: 5px; 
+    font-size: small;  
+    padding: 5px 5px; 
 }
-.w-unica{
-    padding: 3px 3px;
-    background-color: lightgray;
-    color: white;
-    border-radius: 5px;
+footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
 }
 
 
